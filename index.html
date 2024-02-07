@@ -736,13 +736,18 @@
               <div class="col-lg-12 mb-3">
                 <textarea name="message" placeholder="Message" id="message" rows="8" class="shadow form-control-lg form-control" required></textarea>
               </div>
+              <div class="col-lg-12 mb-3">
+              <input type="file" name="attachment" accept="image/png, image/jpeg, video/*, audio/*, .pdf, .doc, .docx">
+              accept=""
+              </div>
               <div class="text-center d-grid mt-1">
                 <input type="submit" value="submit"  class="btn btn-primary rounded-pill pt-3 pb-3">Submit<i class="fas fa-paper-plane"></i>>
 		      
 			<input type="hidden" name="_captcha" value="false">
+			<input type="hidden" name="_subject" value="New submission!">
+			<input type="hidden" name="_blacklist" value="spammy pattern, banned term, phrase">
                 <input type="hidden" name="_template" value="table">
-                <input type="hidden" name="_cc" value="mukeshkumarcharak@gmail.com">
-		<input type="hidden" name="_cc" value="support@hakxcore.com">
+		<input type="hidden" name="_cc" value="support@hakxcore.com,mukeshkumarcharak@gmail.com,tech@hakxcore.com">
 			<input type="text" name="_honey" style="display:none"> 
 		        <input type="hidden" name="_next" value="https://hakxcore.com/thanks.html">
               </div>
