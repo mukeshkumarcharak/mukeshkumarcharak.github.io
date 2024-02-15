@@ -27,17 +27,11 @@
         background: linear-gradient(to right, rgba(72, 100, 186, 0.95), rgba(143, 184, 222, 0.95));
       }
   
-      .intro-section-light{
-        background: linear-gradient(to right, rgba(72, 100, 186, 0.95), rgba(143, 184, 222, 0.95));
-      }
   
       .svg-path-color-light{
         fill: var(--bs-body-bg);
       }
   
-      .testimonials-light{
-        background: linear-gradient(to right, rgba(72, 100, 186, 0.95), rgba(143, 184, 222, 0.95));
-      }
   
       .get-started-light{
         background-color: #e9ecef; 
@@ -54,21 +48,11 @@
         background-color: #202020;
       }
   
-      .intro-section-dark{
-        background-color: #262626;
-      }
   
       .svg-path-color-dark{
         fill: #212121;
       }
-  
-      .testimonials-dark{
-        background: #262626;
-      }
-  
-      .testimonials-card-dark{
-        color: black;
-      }
+
   
       .get-started-dark{
         background-color: #212121;
