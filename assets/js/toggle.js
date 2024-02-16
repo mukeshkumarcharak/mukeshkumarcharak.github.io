@@ -28,10 +28,10 @@ $(document).ready(function(){
     $('#theme_change').addClass('ri-sun-line').removeClass('ri-moon-line');
     $('body').addClass('body-dark').removeClass('body-light');
     $('.menu').addClass('menu-dark').removeClass('menu-light');
-    $('.intro-section').addClass('intro-section-dark').removeClass('intro-section-light');
+    // $('.intro-section').addClass('intro-section-dark').removeClass('intro-section-light');
     $('.svg-path-color').addClass('svg-path-color-dark').removeClass('svg-path-color-light');
-    $('.testimonials').addClass('testimonials-dark').removeClass('testimonials-light');
-    $('.testimonials__card').addClass('testimonials-card-dark');
+    // $('.testimonials').addClass('testimonials-dark').removeClass('testimonials-light');
+    // $('.testimonials__card').addClass('testimonials-card-dark');
     $('.get-started').addClass('get-started-dark').removeClass('get-started-light');
   }
 
@@ -39,10 +39,10 @@ $(document).ready(function(){
     $('#theme_change').addClass('ri-moon-line').removeClass('ri-sun-line');
     $('body').addClass('body-light').removeClass('body-dark');
     $('.menu').addClass('menu-light').removeClass('menu-dark');
-    $('.intro-section').addClass('intro-section-light').removeClass('intro-section-dark');
+    // $('.intro-section').addClass('intro-section-light').removeClass('intro-section-dark');
     $('.svg-path-color').addClass('svg-path-color-light').removeClass('svg-path-color-dark');
-    $('.testimonials').addClass('testimonials-light').removeClass('testimonials-dark');
-    $('.testimonials__card').removeClass('testimonials-card-dark');
+    // $('.testimonials').addClass('testimonials-light').removeClass('testimonials-dark');
+    // $('.testimonials__card').removeClass('testimonials-card-dark');
     $('.get-started').addClass('get-started-light').removeClass('get-started-dark');
   }
 });
