@@ -11340,6 +11340,35 @@ textarea.form-control-lg {
   text-decoration: underline;
 }
 
+/* contact icons hover effect */
+
+.fa-instagram:hover{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+-webkit-background-clip: text;
+        /* Also define standard property for compatibility */
+        background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.fa-github:hover{
+  /* background-image: linear-gradient(120deg, #24292e, #6e5494); */
+  /* background-image: linear-gradient(135deg, #181717, #6e5494); */
+  background-image: linear-gradient(135deg, #f0f0f0, #6e5494);
+  -webkit-background-clip: text;
+        /* Also define standard property for compatibility */
+        background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.fa-x-twitter:hover{
+  background-image: linear-gradient(135deg, #1da1f2, #1a91da);
+  -webkit-background-clip: text;
+        /* Also define standard property for compatibility */
+        background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+/* ends here */
+
 .back-to-top {
   position: fixed;
   width: 3rem;
