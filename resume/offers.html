@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offers</title>
+    <style>
+        .offer {
+            display: none;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="#" onclick="showOffer('offer1')">Offer 1</a>
+    <a href="#" onclick="showOffer('offer2')">Offer 2</a>
+    <a href="#" onclick="showOffer('offer3')">Offer 3</a>
+</nav>
+
+<div class="offer" id="offer1">
+    <iframe src="https://drive.google.com/file/d/1rqvU6CAWG86fX7oldtdrGd8vN_f7S-96/preview" width="100%" height="800"></iframe>
+</div>
+
+<div class="offer" id="offer2">
+    <iframe src="https://drive.google.com/file/d/1WZzTzwZnJIF8vl2UCLbKzz9BmsvNb3hr/preview" width="100%" height="800"></iframe>
+</div>
+
+<div class="offer" id="offer3">
+    <iframe src="https://drive.google.com/file/d/1Eyv2gWT7c4qxvnbhGUyoU9F6hFH6FcsX/preview" width="100%" height="800"></iframe>
+</div>
+
+<script>
+    function showOffer(offerId) {
+        // Hide all offers
+        var offers = document.querySelectorAll('.offer');
+        offers.forEach(function(offer) {
+            offer.style.display = 'none';
+        });
+
+        // Show the selected offer
+        var selectedOffer = document.getElementById(offerId);
+        selectedOffer.style.display = 'block';
+    }
+</script>
+
+</body>
+</html>
+
